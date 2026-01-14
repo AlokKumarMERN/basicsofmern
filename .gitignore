@@ -10,7 +10,7 @@
 **/.env.*
 
 # Build output (React)
-frontend/build/
+# frontend/build/
 
 # Logs
 **/npm-debug.log*
