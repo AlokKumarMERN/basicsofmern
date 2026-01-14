@@ -11,6 +11,7 @@ export const createUser = async (req, res) => {
     await user.save();
 
     console.log("Saved User:", user);
+    console.log("thank you");
 
     res.status(201).json({
       message: "User saved successfully",
